@@ -1,0 +1,53 @@
+/*
+Theme Name: Carbon Agency
+Theme URI: http://agenciacarbon.com.br
+Author: Carbon Agency
+Author URI: http://agenciacarbon.com.br
+Description: Tema desenvolvido exclusivamente para utilização no site da Agência Carbon
+Version: 1.0
+Tags: agencia carbon, carbon, agency
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+div,
+section,
+article,
+aside
+header,
+footer,
+main,
+address,
+nav,
+canvas {
+	display: block;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 1200px;
+	width: 100%;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 200px;
+}

@@ -1,0 +1,146 @@
+/* line 20, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+body {
+  font-family: "Roboto"; }
+
+/* line 24, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+#top-bar {
+  width: 100%;
+  padding: 15px 0px;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 14px;
+  color: #b2b2b2; }
+  /* line 32, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  #top-bar a {
+    color: #b2b2b2; }
+  /* line 36, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  #top-bar .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 41, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    #top-bar .inner ul {
+      float: right; }
+      /* line 44, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      #top-bar .inner ul li {
+        display: inline-block;
+        margin: 0px 5px; }
+
+/* line 52, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+#main-header {
+  position: relative;
+  width: 100%;
+  padding: 35px 0px;
+  margin-bottom: -117px;
+  z-index: 4;
+  font-weight: 100; }
+  /* line 60, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  #main-header .inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    /* line 65, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    #main-header .inner .nav-container {
+      flex-grow: 2;
+      margin-left: 30px;
+      border-bottom: 1px solid #fff; }
+      /* line 70, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      #main-header .inner .nav-container .menu-topnav-container {
+        float: right; }
+        /* line 73, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+        #main-header .inner .nav-container .menu-topnav-container #menu-topnav {
+          margin: 13px 0px; }
+      /* line 80, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      #main-header .inner .nav-container ul li {
+        display: inline-block;
+        margin: 0 15px; }
+        /* line 84, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+        #main-header .inner .nav-container ul li a {
+          color: #fff;
+          font-size: 16px; }
+      /* line 90, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      #main-header .inner .nav-container ul .current-menu-item {
+        font-weight: 500; }
+    /* line 96, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    #main-header .inner figure {
+      max-width: 200px;
+      width: 100%; }
+      /* line 100, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      #main-header .inner figure img {
+        display: block;
+        max-width: 200px;
+        width: 100%; }
+
+/* line 109, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+.header-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 75px 0px; }
+  /* line 116, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  .header-title div {
+    position: relative; }
+    /* line 119, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    .header-title div h2 {
+      font-size: 55px;
+      color: #e24d49;
+      text-transform: uppercase;
+      font-weight: 100; }
+  /* line 127, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  .header-title .title {
+    padding-right: 170px; }
+  /* line 131, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  .header-title .description {
+    color: #5c5c5c;
+    font-weight: 100; }
+
+/* line 137, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+.boxes {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 0px; }
+  /* line 144, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+  .boxes .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 50%; }
+    /* line 150, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    .boxes .box:first-child {
+      padding-right: 50px;
+      border-right: 1px solid #fcc7a6; }
+    /* line 155, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    .boxes .box:last-child {
+      padding-left: 50px; }
+    /* line 159, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    .boxes .box i {
+      display: block;
+      flex-grow: 2;
+      width: 100%;
+      max-width: 106px;
+      min-width: 106px; }
+    /* line 167, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+    .boxes .box .inner-box {
+      flex-grow: 3;
+      padding-left: 20px; }
+      /* line 171, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      .boxes .box .inner-box h3 {
+        font-size: 26px;
+        font-weight: 700;
+        background: #e24d49;
+        background: -moz-linear-gradient(left, #e24d49 0%, #f47920 100%);
+        background: -webkit-linear-gradient(left, #e24d49 0%, #f47920 100%);
+        background: linear-gradient(left, #e24d49 0%, #f47920 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 40px; }
+      /* line 180, /Users/matheushenrique/Sites/carbon/wp-content/themes/carbon/assets/css/style.scss */
+      .boxes .box .inner-box p {
+        color: #b2b2b2;
+        font-size: 15px;
+        font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */
